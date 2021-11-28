@@ -1,0 +1,23 @@
+<view class="pc_local">
+  <SearchInput></SearchInput>
+</view>
+<image class="item-photo" src="http://m.qpic.cn/psc?/V52jpjH22Wm42I23Jw5H237MNm33XLQ2/TmEUgtj9EK6.7V8ajmQrELnwmxHl81M0jcxpqjUnMRhR6VH9RuMO726iV0wh5LFcYx*eMWF4dHsJNkxi3328KthQ97p12q3GRNmfyuZ0LH8!/b&bo=PANoAgAAAAABF2U!&rf=viewer_4" /> 
+<!--index.wxml-->
+    <view class='menu-bar'>
+    <view class='menu-title'>
+      <i class="iconfont icon-ditu1" style="font-size:50rpx;color:#00b26a"></i>
+      附近订单
+    </view>
+
+    <view class='switch-btn-wrapper'>
+      <label  class='cur-menu' bindtap='bindGetPassengerNearby' >点击刷新</label>
+    </view>
+  </view>
+
+  <!-- 行程card -->
+
+  <view style='width:100%;text-align:center;font-size:28rpx;margin-top:300rpx;' >
+    暂无数据~
+  </view>
+
+

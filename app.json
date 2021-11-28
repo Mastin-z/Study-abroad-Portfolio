@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/send/send",
+    "pages/local/local",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/mycertificate/mycertificate",
+    "pages/personal/personal",
+    "pages/aboutus/aboutus"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f6f6f6",
+    "navigationBarTitleText": "拼车",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/send/send",
+        "text": "发布",
+        "iconPath": "icon/_send.png",
+        "selectedIconPath": "icon/send.png"
+      },
+      {
+        "pagePath": "pages/local/local",
+        "text": "同城",
+        "iconPath": "icon/_local.png",
+        "selectedIconPath": "icon/local.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "icon/_ck.png",
+        "selectedIconPath": "icon/ck.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "消息",
+        "iconPath": "icon/_chat.png",
+        "selectedIconPath": "icon/chat.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "icon/_my.png",
+        "selectedIconPath": "icon/my.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于寻找拼友"
+    }
+  }
+}

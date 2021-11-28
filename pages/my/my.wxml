@@ -1,0 +1,43 @@
+
+  <view class="user_info_wrap">
+    <view class="user_img_wrap">
+      <open-data class="user_info_wrap .user_img_wrap .user_bg" type="userAvatarUrl"></open-data>
+      <view class="user_info">
+        <open-data class="user_info_wrap .user_img_wrap .user_info .user_icon" type="userAvatarUrl"></open-data>
+        <open-data class="user_name" type="userNickName" lang="zh_CN"></open-data>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 信息列表 -->
+  <view class='my-items'>
+    <button bindtap='bindGoPersonal' class='item-wrapper'>
+      <view>
+        <i class="iconfont icon-gerenxinxi" style="font-size:60rpx;color:#ffbb12;"></i>个人信息
+        </view>
+      
+      <label>></label>
+    </button>
+    <button bindtap='bindGetMycertificate' class='item-wrapper'>
+      <view>
+        <i class="iconfont icon-w_xueshengzheng" style="font-size:60rpx;color:#2e77ed;"></i>我的证件
+      </view>
+      <label>></label>
+    </button>
+    <!-- 我的行程 -->
+    <button bindtap='bindGetMyCourse'class='item-wrapper'>
+      <view>
+        <i class="iconfont icon-ditu_dingwei" style="font-size:60rpx;color:#bcf0ca;"></i>我的行程
+      </view>
+      <label>></label>
+    </button>
+    
+    <button bindtap='bindGoAboutUs' class='item-wrapper'>
+      <view>
+        <i class="iconfont icon-kefu" style="font-size:60rpx;color:#9266f9;"></i>联系客服
+      </view>
+      <label>></label>
+    </button>
+  </view>
+  
+

@@ -1,0 +1,49 @@
+<view bindtap="bindSuccess" class="container column">
+ 
+    <view class="info-cont">
+      <view class="infoMain">
+        <view class="info-items" bindtap="setPhotoInfo">
+          <text>头像</text>
+          <view class="infotext">
+            <image wx:if="{{src!=null}}" class="userinfo-avatar" src="{{src}}" background-size="cover"></image>
+            <image wx:else class="userinfo-avatar" src="{{userInfo.headImg}}" src="../../icon/scts.png" background-size="cover"></image>
+             <view class="phone">
+            <image class="phone-icon park-icon" ></image>
+          </view>
+          </view>
+         
+        </view>
+        <view class="info-items">
+          <text>姓名</text>
+          <view class="infotext">
+            <input  class="info-motto" bindinput="bindKeyInput" value="{{userInfo.nickname}}" maxlength="15" auto-focus/>
+            <view class="phone">
+              <image class="phone-icon park-icon" src="../../icon/more2.png"></image>
+          </view>
+          </view>
+           
+        </view>
+        <view class="info-items">
+          <text>性别</text>
+          <view class="infotext">
+            <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class="info-motto">
+              <view class="picker">
+                {{array[index]}}
+              </view>
+            </picker>
+             <view class="phone">
+              <image class="phone-icon park-icon" src="../../icon/more2.png"></image>
+          </view>
+        </view>
+          
+            </view>
+              <view class="info-items">
+                <text>手机号</text>
+              <view class="infotext">
+                  <label></label><input style='height:35px;' type='number' name="phone" placeholder='请输入联系方式'/>
+            </view>  
+        </view>
+      </view>
+    </view>
+  
+</view>

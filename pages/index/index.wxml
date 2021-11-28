@@ -1,0 +1,26 @@
+
+<view class="pc_local">
+  <SearchInput></SearchInput>
+</view>
+<view class="index_swiper">
+<swiper indicator-dots="true" autoplay="true" interval="3000" circular="ture">
+   <view wx:for="{{arr}}" wx:key="a">
+      <swiper-item>
+          <image class="item" src="{{item}}"></image>
+      </swiper-item>
+   </view>
+   </swiper>
+</view>
+<view class="position">
+<image class="item-photo" src="/icon/index2.png"></image>
+<view>
+     <view class='top-search-wrapper'style="font-size:30rpx;color:#b08be7;">
+
+         发布拼车信息前请到个人中心填写个人信息和上传学生证
+    </view>
+     <view class='top-search-wrapper2'>
+      <image class="item-sign" src="/icon/tianbiao.png" style="font-size:1000rpx;"></image>
+     </view>
+
+</view>
+</view>

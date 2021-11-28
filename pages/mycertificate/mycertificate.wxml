@@ -1,0 +1,36 @@
+<view >
+ 
+ <view class="info-cont">
+   <view class="infoMain">
+     <view class="info-photo" bindtap="setPhotoInfo">
+       <text style="font-size:30rpx;">学生证封面</text>
+       <view class="infotext">
+         <image mode="heightFix"wx:if="{{src!=null}}" class="userinfo-avatar" src="{{src}}" background-size="cover"></image>
+         <image  wx:else class="userinfo-avatar" src="{{userInfo.headImg}}" src="../../icon/scts.png" background-size="cover"></image>
+       </view>
+      
+     </view>
+     <view class="info-photo" bindtap="setPhotoInfo2">
+       <text style="font-size:30rpx;">学生证盖章页</text>
+       <view class="infotext">
+         <image image mode="heightFix"wx:if="{{src2!=null}}" class="userinfo-avatar" src="{{src2}}" background-size="cover"></image>
+         <image wx:else class="userinfo-avatar" src="{{userInfo.headImg}}" src="../../icon/scts.png" background-size="cover"></image>
+       </view>
+      
+     </view>
+     <view class="info-items">
+     <view style="font-size:40rpx;"><i class="iconfont icon-24gl-school" style="font-size:60rpx;color:#0d5f7b"></i>学校</view>
+       <view class="infotext">
+         <input  class="info-motto" style='height:35px;' bindinput="bindKeyInput"placeholder='请输入你的学校'maxlength="15" />
+       </view>
+        
+     </view>
+     <view class="info-items">
+      <view style="font-size:40rpx;"><i class="iconfont icon-xuexiao" style="font-size:60rpx;color:#0d5f7b"></i>学号</view>
+           <view class="infotext">
+               <input class="info-motto"style='height:35px;' type='number' name="phone" placeholder='请输入你的学号'/><label> </label>
+         </view>  
+     </view>
+   </view>
+ </view>
+</view>

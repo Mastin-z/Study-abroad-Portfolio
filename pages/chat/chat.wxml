@@ -1,0 +1,12 @@
+<view>
+   <view class="chat" wx:for="{{chat}}" wx:key="*this">
+     <view>
+        <image class="avatar" src="/icon/chat/{{item.name}}.jpg"></image>
+     </view>
+     <view class="info">
+         <view class="username">{{item.name}}</view>
+         <view class="message"> {{item.msg}}</view>
+     </view>
+     <view class="date">{{item.time}}</view>
+   </view>
+</view>

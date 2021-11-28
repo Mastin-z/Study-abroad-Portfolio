@@ -1,0 +1,14 @@
+
+<image class="item-photo" src="https://img0.baidu.com/it/u=2695689336,2691119714&fm=26&fmt=auto" />
+<view class='item-wrapper'>
+        <i class="iconfont icon-weixin" style="font-size:60rpx;color:#2fd96f;"></i>微信：WEchat-123
+      </view>
+      <view class='item-wrapper'>
+        <i class="iconfont icon-QQ" style="font-size:60rpx;color:#59b2fa;"></i>QQ：888666
+      </view>
+      <view class='item-wrapper'>
+        <i class="iconfont icon-shouji" style="font-size:60rpx;color:#aac8e2;"></i>手机号：13966008899
+      </view>
+      <view class='item-wrapper'>
+        <i class="iconfont icon-youxiang" style="font-size:60rpx;color:#333333;"></i>邮箱：12345678@qq.com
+      </view>
